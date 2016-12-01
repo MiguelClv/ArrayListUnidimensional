@@ -17,7 +17,7 @@ public class EX06 {
         for ( int i = 0; i < numeros.length; i++) {
             System.out.println("Numero " + (i) +":");
             numeros[i] = scanner.nextInt();
-            if (numeros[i]%2==0){
+            if (i%2==0){
                 acumuladornum = acumuladornum + numeros[i];
                 contnum++;
             }
